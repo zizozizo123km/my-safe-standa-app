@@ -1,0 +1,163 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.npm/_logs/
+.yarn/cache
+.pnpm-store
+
+# Dependency directories
+node_modules/
+/node_modules
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+dist/
+dist-ssr/
+coverage/
+
+# Output directories
+build/
+out/
+
+# Runtime files
+.env
+.env.*
+!.env.example
+!.env.local
+
+# IDE and Editor settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.bak
+*~
+.DS_Store
+
+# macOS
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# SvelteKit/Vite specific
+.svelte-kit
+package
+
+# Next.js specific
+.next/
+
+# Gatsby specific
+.cache/
+public/
+
+# Nuxt specific
+.nuxt/
+.output/
+
+# Storybook specific
+storybook-static
+
+# Cypress specific
+cypress/videos
+cypress/screenshots
+
+# Jest/Vitest specific
+junit.xml
+
+# Temporary files
+*.tmp
+
+# User-specific files
+_site/
+
+# Test coverage
+.nyc_output/
+/html/
+/lcov/
+/lcov-report/
+
+# Other environment specifics
+.auth/
+.cert/
+.data/
+
+# Example files that should not be committed
+example.env
+
+# Custom Netflix 60 files requirement (Placeholder/Fictional)
+# Assuming these are internal or project specific temporary files:
+netflix_temp_*.dat
+movie_cache_*.json
+user_session_*.log
+api_key_backup
+internal_report_*.csv
+prod_logs_*.txt
+test_data_*.db
+build_manifest_*.json
+deployment_scripts_temp/
+old_config_files/
+secret_keys.*
+temp_upload_dir/
+user_avatars_temp/
+vod_chunks_*.ts
+drm_licenses_temp/
+ad_inventory_dump/
+billing_exports_*.xml
+cdn_sync_logs/
+metrics_*.rrd
+transcoding_queue_*.tmp
+qa_test_results/
+db_backups/
+ssl_certs/
+client_secrets/
+deployment_configs/
+server_logs/
+user_feedback_*.txt
+analytics_dumps/
+temp_assets/
+video_previews/
+migration_data/
+legacy_files/
+third_party_deps/
+vendor_bundles/
+private_keys/
+staging_data/
+sandbox_artifacts/
+local_db/
+user_prefs.json
+dev_scripts_output/
+error_dumps/
+performance_reports/
+mock_server_data/
+e2e_results/
+infrastructure_logs/
+security_scans/
+system_files/
+temp_storage/
+upload_cache/
+work_in_progress/
+sensitive_info/
+backup_data/
+temp_config/
+generated_files/
+private_data/
+local_settings/
+test_artifacts/
